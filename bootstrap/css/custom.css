@@ -1,0 +1,59 @@
+/*install fonts*/
+
+@font-face {
+    font-family: mulish;
+    src: url('../../font/Mulish-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: mulishblack;
+    src: url('../../font/Mulish-Black.ttf');
+}
+
+/*hero screen*/
+
+.btn-primary {
+    background: #ffa62b;
+    border: 0px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background: #ff7e28;
+    border: 0px;
+}
+
+.btn-primary2 {
+    background: #ffffff;
+    border: 0px;
+    padding: 15px 45px 15px 45px;
+    color: #ffa62b;
+    border-radius: 4px;
+    align-content: center;
+}
+
+.btn-primary2:hover {
+    background: #fddfcb;
+    border: 0px;
+    color: #ffa62b;
+}
+
+.hero h1 {
+    font-family: mulishblack;
+    margin-bottom: 15px;
+    color: #173a56;
+}
+
+.hero p {
+    font-family: mulish;
+    margin-bottom: 25px;
+    color: #173a56;
+}
+
+@media (max-width: 750px) {
+    .nonempel {
+        margin-left: 40px;
+    }
+}
+}
